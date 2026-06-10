@@ -1,0 +1,9 @@
+# 安装前按实际项目需求删减，避免无关依赖
+pandas==2.3.3
+numpy==2.3.4
+matplotlib==3.10.9
+openpyxl==3.1.5
+pyarrow==23.0.1
+scipy==1.16.3
+statsmodels==0.14.5
+scikit-learn==1.7.2

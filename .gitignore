@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# 本地配置和密钥
+.env
+.env.*
+!.env.example
+
+# 数据和分析输出
+data/raw/*
+data/processed/*
+outputs/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!outputs/.gitkeep
+
+# 编辑器和系统文件
+.DS_Store
+Thumbs.db
